@@ -1,0 +1,8 @@
+C:\Users\Julio\Documents\SENAC\UC10\Github\Codingcs\CATI9101\CATI9101\bin\Debug\CATI9101.exe.config
+C:\Users\Julio\Documents\SENAC\UC10\Github\Codingcs\CATI9101\CATI9101\bin\Debug\CATI9101.exe
+C:\Users\Julio\Documents\SENAC\UC10\Github\Codingcs\CATI9101\CATI9101\bin\Debug\CATI9101.pdb
+C:\Users\Julio\Documents\SENAC\UC10\Github\Codingcs\CATI9101\CATI9101\obj\Debug\CATI9101.csproj.AssemblyReference.cache
+C:\Users\Julio\Documents\SENAC\UC10\Github\Codingcs\CATI9101\CATI9101\obj\Debug\CATI9101.csproj.SuggestedBindingRedirects.cache
+C:\Users\Julio\Documents\SENAC\UC10\Github\Codingcs\CATI9101\CATI9101\obj\Debug\CATI9101.csproj.CoreCompileInputs.cache
+C:\Users\Julio\Documents\SENAC\UC10\Github\Codingcs\CATI9101\CATI9101\obj\Debug\CATI9101.exe
+C:\Users\Julio\Documents\SENAC\UC10\Github\Codingcs\CATI9101\CATI9101\obj\Debug\CATI9101.pdb
