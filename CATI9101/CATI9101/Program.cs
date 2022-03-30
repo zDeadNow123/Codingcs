@@ -97,17 +97,16 @@ namespace CATI9101
                 Console.Clear();
             }
 
-                // Exibindo a tabuada
-                Console.Write("Você exibiu as tabuadas dos números: ");
+            // Exibindo a tabuada
+            Console.Write("Você exibiu as tabuadas dos números: ");
 
+            // Percorre o vetor vnumero e exibe os valores
+            foreach (var item in vnumero) {
+                 if (item != 0) Console.Write($"{item}, ");
+            }
 
-                // Percorre o vetor vnumero e exibe os valores
-                foreach (var item in vnumero) {
-                    if (item != 0) Console.Write($"{item}, ");
-                }
-
-                // Aguarda a entrada do usuário
-                Console.ReadKey();
+            // Aguarda a entrada do usuário
+            Console.ReadKey();
         }  
     }
 }
