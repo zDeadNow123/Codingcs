@@ -64,7 +64,7 @@ namespace CATI9101
             string sair = string.Empty;
             int cont = 10;
 
-
+            // While utilizado para repetir a operação enquanto o usuário não digitar "s" (sair)
             while(sair != "s" && cont > 0) {
 
                 // Mensagem de entrada do usuário
@@ -96,6 +96,8 @@ namespace CATI9101
                 sair = Console.ReadLine();
                 Console.Clear();
             }
+            
+            // Após o usuário digitar "s" (sair) o programa exibe os números que o usuário digitou
 
             // Exibindo a tabuada
             Console.Write("Você exibiu as tabuadas dos números: ");
