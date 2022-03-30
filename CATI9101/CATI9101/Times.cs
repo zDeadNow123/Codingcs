@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CATI9101 {
     internal class Times {
-        public static void times() {
+        public static void run() {
 
             // Declaração de matrizes
             string[] jogadores = {"José", "Paulo", "Gabriel", "Júlio", "Marcos"};

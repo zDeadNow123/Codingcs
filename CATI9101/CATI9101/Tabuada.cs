@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CATI9101 {
     internal class Tabuada {
-        public static void tabuada() {
+        public static void run() {
 
             // Declaração de variáveis
             int[] vnumero = new int[10];
