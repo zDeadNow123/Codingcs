@@ -60,13 +60,9 @@ namespace CATI9101
         */
 
             // Declaração de variáveis
-
-            bool atende = false;
             int[] vnumero = new int[10];
             string sair = string.Empty;
             int cont = 10;
-
-
 
 
             while(sair != "s" && cont > 0) {
@@ -77,8 +73,6 @@ namespace CATI9101
                 // Declaração de variáveis
                 int numero = int.Parse(Console.ReadLine());
                 int resultado = 0;
-            
-
 
                 // Verifica se o numero não é maior que 0 e se não é menor que 11
                 if (!(numero > 0 && numero < 11)) {
