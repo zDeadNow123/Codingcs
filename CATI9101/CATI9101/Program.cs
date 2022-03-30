@@ -15,7 +15,7 @@ namespace CATI9101
         static void Main(string[] args) {
 
 
-            
+
             // Declaração de variáveis
 
             /*
@@ -46,7 +46,7 @@ namespace CATI9101
 
 
             // Formas de conversões de tipos
-            */
+            
 
             Console.WriteLine("Digite seu nome:");
             string nome = Console.ReadLine();
@@ -55,9 +55,55 @@ namespace CATI9101
             int ano = Convert.ToInt32(Console.ReadLine());
             //byte idade = (byte)(DateTime.Now.Year - (byte)ano);
             byte idade = Convert.ToByte(DateTime.Now.Year - ano);
-
+            
             Console.WriteLine("Olá {0}, sua idade é {1}", nome, idade);
-            Console.ReadKey();
-        }       
-    }
-}
+        */
+
+        bool atende = false;
+        int[] vnumero = new int[10];
+        string sair = string.Empty;
+        int cont = 10;
+
+        while(sair != "s" && cont > 0) {
+
+            Console.WriteLine("Digite um número de 1 a 10");
+            int numero = int.Parse(Console.ReadLine());
+            int resultado = 0;
+        
+            do {
+
+                if (!(numero > 0 && numero < 11)) {
+                    Console.WriteLine("Você deve digitar um número de 1 a 10");
+                    atende = false;
+                    Console.ReadKey();
+                    return;
+                }
+
+                for (int i = 1; i <= 10; i++) {
+                    resultado = numero * i;
+                    Console.WriteLine("{0} x {1} = {2}", numero, i, resultado);
+                }
+                atende = true;
+
+
+            } while (!atende);
+
+            cont--;
+            vnumero[cont] = numero;
+
+            Console.WriteLine("Deseja sair? (s) ou enter para continuar:");
+            sair = Console.ReadLine();
+            Console.Clear();
+        } // Fim do While
+
+        Console.Write("Você exibiu as tabuadas dos números: ");
+
+        foreach (var item in vnumero) {
+            if (item != 0) Console.Write($"{item}, ");
+        }
+
+        Console.ReadKey();
+        
+        } // Fim do Main       
+    } // Fim da classe Program
+} // Fim do namespace
