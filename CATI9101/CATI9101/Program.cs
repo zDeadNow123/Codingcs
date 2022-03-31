@@ -10,12 +10,21 @@ namespace CATI9101 {
 
         // Métodos de classe - função/operação/ação do objeto
 
-        static void Main(string[] args) {
+        public static void Main(string[] args) {
 
-            // Introducao.run();
-            // Conversaodetipos.run();
-            // Tabuada.run();
-            // Times.run();
+            Introducao introducao = new Introducao();
+            Conversaodetipos conversaodetipos = new Conversaodetipos();
+            Tabuada tabuada = new Tabuada();
+            Times times = new Times();
+            Exerc exerc = new Exerc();
+
+
+            // introducao.run();
+            // conversaodetipos.run();
+            // tabuada.run();
+            // times.run();
+
+            exerc.run();
 
             // Declaração de variáveis
         }
