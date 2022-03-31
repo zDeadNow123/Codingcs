@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CATI9101 {
-    internal class Tabuada {
+    public class Tabuada {
         public static void run() {
 
             // Declaração de variáveis

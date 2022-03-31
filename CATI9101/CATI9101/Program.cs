@@ -17,6 +17,7 @@ namespace CATI9101 {
             Tabuada tabuada = new Tabuada();
             Times times = new Times();
             Exerc exerc = new Exerc();
+            Exerc2 exerc2 = new Exerc2();
 
 
             // introducao.run();
@@ -24,7 +25,7 @@ namespace CATI9101 {
             // tabuada.run();
             // times.run();
 
-            exerc.run();
+            exerc2.run();
 
             // Declaração de variáveis
         }

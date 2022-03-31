@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CATI9101 {
-    internal class Conversaodetipos {
+    public class Conversaodetipos {
         public static void run() {
 
             // Declaração de variáveis

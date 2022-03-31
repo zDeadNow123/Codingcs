@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exerc.cs" />
     <Compile Include="Conversaodetipos.cs" />
+    <Compile Include="Exerc2.cs" />
     <Compile Include="Introducao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

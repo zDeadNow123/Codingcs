@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CATI9101 {
-    internal class Introducao {
+    public class Introducao {
         public static void run() {
 
             var x = 10;
